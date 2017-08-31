@@ -19,7 +19,7 @@ class SummaryViewController: UIViewController {
         super.viewDidLoad()
 
         first_name.text = "fag"
-        last_name.text = "got ahhahahahahahahahahahahahahahahahahahahahahahahah"
+        last_name.text = "got ahhahahahahahahahahahahahahahahahahahahahahahahahah"
         
         profile_img.layer.cornerRadius = profile_img.bounds.width/2
         profile_img.layer.borderWidth = 5.0
