@@ -14,6 +14,7 @@
 		CEC378161F58163900335EB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEC378141F58163900335EB8 /* LaunchScreen.storyboard */; };
 		CEC378211F58163900335EB8 /* ContactCardAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC378201F58163900335EB8 /* ContactCardAppTests.swift */; };
 		CEC3782C1F58163900335EB8 /* ContactCardAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC3782B1F58163900335EB8 /* ContactCardAppUITests.swift */; };
+		CEC3783A1F58213600335EB8 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC378391F58213600335EB8 /* SummaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		CEC378271F58163900335EB8 /* ContactCardAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactCardAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC3782B1F58163900335EB8 /* ContactCardAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCardAppUITests.swift; sourceTree = "<group>"; };
 		CEC3782D1F58163900335EB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC378391F58213600335EB8 /* SummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				CEC378121F58163900335EB8 /* Assets.xcassets */,
 				CEC378141F58163900335EB8 /* LaunchScreen.storyboard */,
 				CEC378171F58163900335EB8 /* Info.plist */,
+				CEC378391F58213600335EB8 /* SummaryViewController.swift */,
 			);
 			path = ContactCardApp;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				CEC3780E1F58163900335EB8 /* ViewController.swift in Sources */,
 				CEC3780C1F58163900335EB8 /* AppDelegate.swift in Sources */,
+				CEC3783A1F58213600335EB8 /* SummaryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
