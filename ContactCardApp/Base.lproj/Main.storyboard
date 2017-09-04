@@ -6,10 +6,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Summary View Controller-->
+        <!--person_view-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="SummaryViewController" customModule="ContactCardApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="person_view" id="BYZ-38-t0r" customClass="SummaryViewController" customModule="ContactCardApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,41 +23,45 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kok" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlF-ah-Aql" userLabel="first_name">
-                                <frame key="frameInset" minY="323" width="99.76%" height="21"/>
+                                <frame key="frameInset" minY="323" width="100.00%" height="21"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ho" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c91-ys-wpW" userLabel="last_name">
-                                <frame key="frameInset" minY="362" width="99.76%" height="21"/>
+                                <frame key="frameInset" minY="362" width="100.00%" height="21"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bigan-face-expander-thumb" translatesAutoresizingMaskIntoConstraints="NO" id="YFj-Pw-ggA" userLabel="profilepic">
-                                <frame key="frameInset" minX="49.83%" minY="176" width="129" height="128"/>
+                                <frame key="frameInset" minX="50.70%" minY="176" width="130" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVO-OP-dSP">
-                                <frame key="frameInset" minX="50.00%" minY="436" width="146" height="30"/>
+                                <frame key="frameInset" minX="49.44%" minY="436" width="147" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="New Random Person"/>
+                                <state key="normal" title="New Person"/>
+                                <connections>
+                                    <action selector="person_button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aun-SX-YTB"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.89541771673955117" green="1" blue="0.98344932104524985" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="background" destination="u0R-Vg-kk4" id="A7z-Sl-sxp"/>
                         <outlet property="first_name" destination="hlF-ah-Aql" id="See-1S-SUv"/>
                         <outlet property="last_name" destination="c91-ys-wpW" id="edI-Wn-o5h"/>
+                        <outlet property="person_button" destination="AVO-OP-dSP" id="4Fu-DO-wWr"/>
                         <outlet property="profile_img" destination="YFj-Pw-ggA" id="mri-Oa-V2O"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="115.94202898550725" y="122.28260869565219"/>
+            <point key="canvasLocation" x="1113" y="116"/>
         </scene>
     </scenes>
     <resources>
